@@ -5,7 +5,7 @@ using Feedme.Entities;
 
 namespace Feedme.Repositories
 {
-    public class InMemItemsRepository : IInMemItemsRepository
+    public class InMemItemsRepository : IItemsRepository
     {
         private readonly List<Item> items = new()
         {
